@@ -1,0 +1,317 @@
+{
+  "farmer": {
+    "id": 1,
+    "name": "Tendai Moyo",
+    "location": "Marondera",
+    "province": "Mashonaland East",
+    "country": "Zimbabwe",
+    "agroEcologicalRegion": "Natural Region IIb",
+    "crops": [
+      "Maize",
+      "Soybeans",
+      "Tomatoes"
+    ],
+    "farmSizeHa": 4.5,
+    "assignedAdvisor": {
+      "id": 101,
+      "name": "Clement Mutasa",
+      "title": "AGRITEX Extension Officer",
+      "district": "Marondera District",
+      "phone": "+263 77 123 4567"
+    }
+  },
+  "weather": {
+    "location": "Marondera",
+    "district": "Marondera (Mashonaland East)",
+    "coordinates": {
+      "lat": -18.1853,
+      "lon": 31.5519
+    },
+    "temperature": 24,
+    "condition": "Partly Cloudy",
+    "humidity": 65,
+    "windSpeed": 12,
+    "rainProbability": 30,
+    "sprayAdvisory": {
+      "status": "Optimal",
+      "recommendation": "Favorable conditions for morning chemical spraying (low wind, moderate temperature)."
+    },
+    "forecast": [
+      {
+        "day": "Today",
+        "condition": "Sunny",
+        "icon": "fa-sun",
+        "iconColor": "text-warning",
+        "temp": "25°C",
+        "rain": "10%",
+        "sprayAdvisory": "Optimal",
+        "badgeClass": "bg-success"
+      },
+      {
+        "day": "Tomorrow",
+        "condition": "Rain Showers",
+        "icon": "fa-cloud-rain",
+        "iconColor": "text-primary",
+        "temp": "21°C",
+        "rain": "75%",
+        "sprayAdvisory": "Avoid Spraying",
+        "badgeClass": "bg-danger"
+      },
+      {
+        "day": "Wednesday",
+        "condition": "Partly Cloudy",
+        "icon": "fa-cloud-sun",
+        "iconColor": "text-warning",
+        "temp": "23°C",
+        "rain": "20%",
+        "sprayAdvisory": "Optimal (Afternoon)",
+        "badgeClass": "bg-success"
+      },
+      {
+        "day": "Thursday",
+        "condition": "Clear",
+        "icon": "fa-sun",
+        "iconColor": "text-warning",
+        "temp": "26°C",
+        "rain": "0%",
+        "sprayAdvisory": "Optimal",
+        "badgeClass": "bg-success"
+      },
+      {
+        "day": "Friday",
+        "condition": "Windy",
+        "icon": "fa-wind",
+        "iconColor": "text-secondary",
+        "temp": "22°C",
+        "rain": "15%",
+        "sprayAdvisory": "Caution (Drift Risk)",
+        "badgeClass": "bg-warning text-dark"
+      }
+    ]
+  },
+  "diagnoses": [
+    {
+      "id": "diag-1790322320258",
+      "timestamp": "2026-09-25T07:45:20.258Z",
+      "crop": "Tomato",
+      "diseaseName": "Tomato Early Blight (Alternaria solani)",
+      "scientificName": "Alternaria solani",
+      "confidence": 89,
+      "description": "Concentric dark brown rings (\"bullseye\" pattern) identified on lower older leaves, indicating fungal spores following high moisture.",
+      "treatments": [
+        "Spray Copper Oxychloride 85% WP or Mancozeb 80% WP every 7 to 10 days.",
+        "Prune lower infected branches up to 30cm off the ground to improve air movement and reduce soil splash.",
+        "Apply thick dry grass mulch around the base of the tomato stems."
+      ],
+      "safety": "Apply with full protective equipment. Respect 7-day pre-harvest interval.",
+      "hasImage": true
+    },
+    {
+      "id": "diag-1790320150005",
+      "timestamp": "2026-09-25T07:09:10.005Z",
+      "crop": "Tomato",
+      "diseaseName": "Tomato Early Blight (Alternaria solani)",
+      "scientificName": "Alternaria solani",
+      "confidence": 89,
+      "description": "Concentric dark brown rings (\"bullseye\" pattern) identified on lower older leaves, indicating fungal spores following high moisture.",
+      "treatments": [
+        "Spray Copper Oxychloride 85% WP or Mancozeb 80% WP every 7 to 10 days.",
+        "Prune lower infected branches up to 30cm off the ground to improve air movement and reduce soil splash.",
+        "Apply thick dry grass mulch around the base of the tomato stems."
+      ],
+      "safety": "Apply with full protective equipment. Respect 7-day pre-harvest interval.",
+      "hasImage": true
+    },
+    {
+      "id": "diag-1790319008152",
+      "timestamp": "2026-09-25T06:50:08.152Z",
+      "crop": "Maize",
+      "diseaseName": "Fall Armyworm (Spodoptera frugiperda)",
+      "scientificName": "Spodoptera frugiperda",
+      "confidence": 94,
+      "description": "Visible whorl leaf damage, ragged windowpane holes, and coarse granular frass inside funnel. Early stage infestation detected.",
+      "treatments": [
+        "Apply Emamectin Benzoate 5% SG or Belt Expert (Flubendiamide) directly into the maize whorl.",
+        "Organic / Cultural method: Handpick caterpillars or apply clean dry sand / fine wood ash into the funnel to suffocate larvae.",
+        "Intercrop with desmodium or silverleaf (push-pull strategy) to deter egg-laying moths."
+      ],
+      "safety": "Wear gloves and respirator mask. Avoid spraying in direct midday sun. Pre-harvest interval (PHI): 14 days.",
+      "hasImage": false
+    },
+    {
+      "id": "diag-1",
+      "timestamp": "2026-09-23T06:47:44.779Z",
+      "crop": "Maize",
+      "diseaseName": "Northern Corn Leaf Blight (Exserohilum turcicum)",
+      "confidence": 92,
+      "description": "Cigar-shaped elliptical necrotic lesions on lower leaves, starting grayish-green then turning tan.",
+      "treatments": [
+        "Spray Azoxystrobin + Difenoconazole (Amistar Top) at early lesion appearance.",
+        "Practice crop rotation with legumes (Soybeans/Groundnuts) to break disease cycle.",
+        "Plant resistant maize hybrids certified for Highveld/Middleveld."
+      ],
+      "safety": "Wear PPE. Respect 21-day pre-harvest interval."
+    },
+    {
+      "id": "diag-2",
+      "timestamp": "2026-09-20T06:47:44.780Z",
+      "crop": "Tomato",
+      "diseaseName": "Tomato Early Blight (Alternaria solani)",
+      "confidence": 88,
+      "description": "Concentric dark 'bullseye' target rings on older bottom foliage following high humidity.",
+      "treatments": [
+        "Spray Copper Oxychloride or Mancozeb every 7-10 days.",
+        "Prune lower infected canopy branches to improve air ventilation.",
+        "Mulch beds with dry grass to prevent fungal spore splash."
+      ],
+      "safety": "Spray in early morning before bees and pollinators are active."
+    }
+  ],
+  "calendar": [
+    {
+      "id": 1,
+      "date": "2026-09-22",
+      "crop": "Tomatoes",
+      "name": "Copper Oxychloride Spray",
+      "target": "Early Blight Prevention",
+      "status": "Pending"
+    },
+    {
+      "id": 2,
+      "date": "2026-09-25",
+      "crop": "Maize",
+      "name": "AN (Ammonium Nitrate) Top Dressing",
+      "target": "Vegetative Growth Boost",
+      "status": "Pending"
+    },
+    {
+      "id": 3,
+      "date": "2026-09-18",
+      "crop": "Tobacco",
+      "name": "Confidor Drenching",
+      "target": "Aphid Control",
+      "status": "Completed"
+    }
+  ],
+  "market": [
+    {
+      "id": 1,
+      "commodity": "Maize (White Grain)",
+      "market": "Mbare Musika (Harare)",
+      "price": 220,
+      "unit": "Ton",
+      "demand": "High Demand",
+      "demandBadge": "bg-success",
+      "trend": "+2.5%",
+      "date": "21 Sep 2026",
+      "source": "eMKAMBA"
+    },
+    {
+      "id": 2,
+      "commodity": "Tomatoes (Box)",
+      "market": "Mbare Musika (Harare)",
+      "price": 7.5,
+      "unit": "Box",
+      "demand": "Moderate",
+      "demandBadge": "bg-warning text-dark",
+      "trend": "-5.0%",
+      "date": "21 Sep 2026",
+      "source": "Field Agent"
+    },
+    {
+      "id": 3,
+      "commodity": "Sugar Beans",
+      "market": "Renkini (Bulawayo)",
+      "price": 900,
+      "unit": "Ton",
+      "demand": "Very High",
+      "demandBadge": "bg-success",
+      "trend": "+4.1%",
+      "date": "20 Sep 2026",
+      "source": "ZINU"
+    },
+    {
+      "id": 4,
+      "commodity": "Soybeans",
+      "market": "GMB Depot",
+      "price": 480,
+      "unit": "Ton",
+      "demand": "Stable Statutory",
+      "demandBadge": "bg-info text-dark",
+      "trend": "0.0%",
+      "date": "18 Sep 2026",
+      "source": "GMB Gazetted"
+    },
+    {
+      "id": 5,
+      "commodity": "Potatoes (Pocket 15kg)",
+      "market": "Sakubva (Mutare)",
+      "price": 8,
+      "unit": "Pocket",
+      "demand": "High Demand",
+      "demandBadge": "bg-success",
+      "trend": "+1.8%",
+      "date": "21 Sep 2026",
+      "source": "Sakubva Desk"
+    },
+    {
+      "id": 6,
+      "commodity": "Cabbage (Head)",
+      "market": "Mbare Musika (Harare)",
+      "price": 0.65,
+      "unit": "Head",
+      "demand": "High Demand",
+      "demandBadge": "bg-success",
+      "trend": "+3.2%",
+      "date": "21 Sep 2026",
+      "source": "eMKAMBA"
+    }
+  ],
+  "advisors": [
+    {
+      "id": 101,
+      "name": "Clement Mutasa",
+      "role": "AGRITEX Officer - Marondera District",
+      "expertise": "Maize & Horticulture",
+      "phone": "+263 77 123 4567",
+      "email": "c.mutasa@agritex.gov.zw",
+      "location": "Marondera Rural",
+      "image": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": 102,
+      "name": "Grace Nkomo",
+      "role": "Livestock & Pasture Specialist",
+      "expertise": "Cattle & Poultry",
+      "phone": "+263 77 987 6543",
+      "email": "g.nkomo@agritex.gov.zw",
+      "location": "Mashonaland East",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80"
+    },
+    {
+      "id": 103,
+      "name": "Dr. T. Sithole",
+      "role": "Plant Pathologist (DR&SS)",
+      "expertise": "Crop Diseases & Diagnostics",
+      "phone": "+263 71 200 0111",
+      "email": "t.sithole@drss.gov.zw",
+      "location": "National Research Labs",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+    }
+  ],
+  "advisorRequests": [
+    {
+      "id": "REQ-353175",
+      "advisorId": 101,
+      "advisorName": "Clement Mutasa",
+      "advisorPhone": "+263 77 123 4567",
+      "farmerName": "Tendai Moyo",
+      "type": "Farm Visit",
+      "crop": "Maize",
+      "notes": "Need inspection for Fall Armyworm on Plot 3",
+      "dateSubmitted": "2026-09-25T07:01:05.364Z",
+      "status": "Assigned",
+      "expectedContact": "Within 24 Hours"
+    }
+  ]
+}
